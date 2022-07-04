@@ -1,6 +1,6 @@
 import websocket, json, config
 
-
+# 想查的tickits
 list_of_tickers = ["AAPL", "TSLA"]
 
 def on_message(ws, message):
